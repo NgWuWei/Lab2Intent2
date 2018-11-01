@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.taruc.lab2intent.MainActivity">
+    <item
+        android:id="@+id/action_ZoomIn"
+        android:icon="@drawable/ic_zoom_in_black_24dp"
+        android:orderInCategory="100"
+        android:title="Zoom In"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ZoomOut"
+        android:icon="@drawable/ic_zoom_out_black_24dp"
+        android:orderInCategory="101"
+        android:title="Zoom Out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="102"
+        android:title="Settings" />
+    <item
+        android:id="@+id/action_AboutUs"
+        android:orderInCategory="103"
+        android:title="About Us"
+        app:showAsAction="never" />
+</menu>
